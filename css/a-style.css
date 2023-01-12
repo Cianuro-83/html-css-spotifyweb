@@ -1,0 +1,80 @@
+/**********************
+GENERAL RULES  
+*********************/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+ul,
+ol,
+li,
+menu {
+  list-style: none;
+}
+html {
+  font-family: "noto-sans", sans-serif;
+  color: var(--nav-text);
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/**********************
+SERVICE RULES  
+*********************/
+:root{
+    /* colori */
+    --nav: #000000;
+    --player: #282828;
+    --page: #141922;
+    --new-playlist: #A3A3A3;
+    --nav-text:#676767;
+    --user: #808080;
+    --active-slider #BCBCBC;
+    --empty-slider:#585858;
+    --evidence:#BDFD31;
+}
+.flex{
+    display: flex;
+}
+
+/**********************
+MACRO LAYOUT  
+*********************/
+.main-content{
+    border: 2px solid red;
+    flex-grow: 1;
+    display: flex;
+}
+.player-content{
+    border: 2px solid red;
+    flex-basis: auto;
+    flex-shrink: 0;
+    background-color: var(--player);
+}
+.menu{
+    border: 2px solid green;
+    flex-basis: 230px;
+    flex-shrink: 0;
+    background-color: var(--nav);
+}
+.music{
+    border: 2px solid green;
+    flex-grow: 1;
+    background-color: var(--page);
+}
+
