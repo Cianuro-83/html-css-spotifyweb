@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: var(--page);
 }
 
 /**********************
@@ -48,9 +49,7 @@ SERVICE RULES
     --empty-slider:#585858;
     --evidence:#BDFD31;
 }
-.flex{
-    display: flex;
-}
+
 
 /**********************
 MACRO LAYOUT  
@@ -62,9 +61,11 @@ MACRO LAYOUT
 }
 .player-content{
     border: 2px solid red;
-    flex-basis: auto;
+    flex-basis: 90px;
+    min-height: 90px;
     flex-shrink: 0;
     background-color: var(--player);
+    overflow: hidden;
 }
 .menu{
     border: 2px solid green;
@@ -76,5 +77,13 @@ MACRO LAYOUT
     border: 2px solid green;
     flex-grow: 1;
     background-color: var(--page);
+    overflow: auto;
+    max-height: calc(99vh - 90px);
+);
 }
+/* .music-content{
+    
+    max-height: 90vh;
+    
+} */
 
