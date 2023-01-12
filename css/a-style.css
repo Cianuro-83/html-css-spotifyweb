@@ -47,7 +47,8 @@ SERVICE RULES
     --user: #808080;
     --active-slider #BCBCBC;
     --empty-slider:#585858;
-    --evidence:#BDFD31;
+    --selected:#BDFD31;
+    
 }
 
 
@@ -62,11 +63,12 @@ MACRO LAYOUT
 .player-content{
     border: 2px solid red;
     flex-basis: auto;
-    min-height: 90px;
+     min-height: 90px;
     flex-shrink: 0;
     background-color: var(--player);
     overflow: hidden;
     z-index: 999;
+    padding: 5px 10px 20px 10px;
 }
 .menu{
     border: 2px solid green;
@@ -76,6 +78,8 @@ MACRO LAYOUT
     position: relarive;
     overflow:hidden;
     max-height: calc(100vh - 90px);
+    padding: 20px 20px 8px 20px;
+    
 }
 .music{
     border: 2px solid green;
@@ -88,22 +92,23 @@ MACRO LAYOUT
 .upgrade{
     background-color:rgba(0, 0, 0, 0.5);
     height: 90px;
-    position: absolute;
+    position: ficed;
     width: 100%;
     text-transform: uppercase;
     padding-top: 20px;
+    border: 20px solid yellow;
+    
 
 }
 .upgrade h4{
     color: white;
     background-color: #080B12;
     border: 2px solid white;
-    display: block;
+    border-radius: 25px;
     height: 42px;
     width: 218px;
     padding: 12px 14px;
-
-    
+   
 }
 .album{
     padding: 120px 30px 0 20px;   
