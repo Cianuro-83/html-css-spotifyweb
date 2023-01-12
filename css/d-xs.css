@@ -1,0 +1,8 @@
+@media screen and (max-width: 552px) {
+  /**********************
+LAYOUT  
+*********************/
+  .menu {
+    flex-basis: 50px;
+  }
+}
