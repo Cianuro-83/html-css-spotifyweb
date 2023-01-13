@@ -13,10 +13,10 @@ LAYOUT
   /* **************************
   PLAYER
   ************************** */
-  .player-brano {
-    flex-basis: 128;
+  .volume-max {
+    width: 50px;
   }
-  .player-opzioni {
-    flex-basis: 154px;
+  .volume-attuale {
+    width: 15px;
   }
 }

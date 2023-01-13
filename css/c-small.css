@@ -3,9 +3,19 @@
 PLAYER  
 *********************/
   .player-brano {
-    flex-basis: 159px;
+    flex-basis: 130px;
   }
   .player-opzioni {
-    flex-basis: 186px;
+    flex-basis: 130px;
+  }
+  .player-riproduzione {
+    flex-basis: 35%;
+  }
+
+  .volume-max {
+    width: 50px;
+  }
+  .volume-attuale {
+    width: 20px;
   }
 }

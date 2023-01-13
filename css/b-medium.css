@@ -4,6 +4,9 @@ PLAYER
 *********************/
   .player-brano,
   .player-opzioni {
-    flex-basis: 214px;
+    flex-basis: 180px;
+  }
+  .player-riproduzione {
+    flex-basis: 40%;
   }
 }
