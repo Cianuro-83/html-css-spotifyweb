@@ -138,8 +138,9 @@ PLAYER
 .player-riproduzione{
   flex-basis: 50%;
   max-width: 500px;
-  flex-shrink: 2;
+  flex-shrink: 1;
   gap: 5px;
+  color: white;
 }
 .brano{
   display: flex;
@@ -195,6 +196,40 @@ PLAYER
   z-index: 1;
 }
 
+.pulsanti-riproduzione{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 20px;
+  align-items: center;
+}
+.play-riproduzione{
+  font-size: 30px;
+  margin: 0 10px;
+}
+.barra-riproduzione{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-play-bar{
+  position: relative;
+}
+.slider-totale{
+  background-color:grey;
+  padding: 4px;
+  width: 80px;
+  position:absolute;
+  z-index:0
+}
+.slider-attuale{
+  background-color:var(--new-playlist);
+  padding: 3px;
+  width: 25px;
+  position:absolute;
+  z-index: 1;
+}
 
 /* debug */
 .player-brano,
