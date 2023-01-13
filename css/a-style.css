@@ -81,7 +81,7 @@ MACRO LAYOUT
     background-color: var(--nav);
     overflow:hidden;
     max-height: calc(100vh - 90px);
-    padding: 20px 20px 8px 20px;
+    padding: 20px 20px 8px 0px;
     
 }
 .music{
@@ -228,4 +228,27 @@ PLAYER
   max-width: 55%;
   background-color:var(--new-playlist);
   border-radius: 25px;
+}
+
+/* **************************
+SIDEBAR
+************************** */
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+.install-app{
+  margin-top: auto;
+}
+
+
+
+
+/* debug */
+.logo,
+.navigation,
+.playlist,
+.install-app,
+.user{
+  border: 2px solid red;
 }
