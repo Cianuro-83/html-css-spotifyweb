@@ -8,14 +8,22 @@ PLAYER
   .player-opzioni {
     flex-basis: 130px;
   }
-  .player-riproduzione {
-    flex-basis: 35%;
-  }
 
   .volume-max {
     width: 50px;
   }
   .volume-attuale {
     width: 20px;
+  }
+  .shuffle-riproduzione,
+  .rewind-riproduzione,
+  .forward-riproduzione,
+  .repeat-riproduzione {
+    font-size: 15px;
+  }
+  .play-riproduzione {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin: 0 5px;
   }
 }

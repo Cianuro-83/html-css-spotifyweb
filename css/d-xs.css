@@ -19,7 +19,16 @@ LAYOUT
   .volume-attuale {
     width: 15px;
   }
-  .pulsanti-riproduzione {
-    gap: 10px;
+  .player-riproduzione {
+    flex-basis: 35%;
   }
+
+  .pulsanti-riproduzione{
+    gap: 5px;
+    font-size: 8px;
+  }
+  .play-riproduzione{
+    font-size: 15px;
+    margin: 0 3px;
+    margin-bottom: 5px;
 }
