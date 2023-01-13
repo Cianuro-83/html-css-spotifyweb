@@ -56,22 +56,33 @@ SERVICE RULES
 MACRO LAYOUT  
 *********************/
 .main-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-grow: 1;
     display: flex;
 }
 .player-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-basis: auto;
-     min-height: 90px;
+    min-height: 90px;
     flex-shrink: 0;
     background-color: var(--player);
     overflow: hidden;
     z-index: 999;
     padding: 5px 10px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.player-brano,
+.player-riproduzione,
+.player-opzioni{
+  border: 1px solid red;
+  padding: 10px
+}
+
 .menu{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     flex-basis: 230px;
     flex-shrink: 0;
     background-color: var(--nav);
@@ -81,7 +92,7 @@ MACRO LAYOUT
     
 }
 .music{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     flex-grow: 1;
     background-color: var(--page);
     overflow: auto;
@@ -114,4 +125,20 @@ MACRO LAYOUT
 .album{
     padding: 120px 30px 0 20px;  
     justify-self: ;
+}
+
+/* **************************
+PLAYER
+************************** */
+.player-brano,
+.player-opzioni{
+  flex-basis: 230px;
+  flex-shrink: 1;
+}
+
+.player-riproduzione{
+  flex-basis: 43%;
+  max-width: 500px;
+  flex-shrink: 0;
+  gap: 5px;
 }

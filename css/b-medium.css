@@ -1,5 +1,9 @@
 @media screen and (max-width: 877px) {
   /**********************
-MACRO LAYOUT  
+PLAYER  
 *********************/
+  .player-brano,
+  .player-opzioni {
+    flex-basis: 214px;
+  }
 }

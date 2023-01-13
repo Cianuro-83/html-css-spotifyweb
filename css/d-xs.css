@@ -9,4 +9,14 @@ LAYOUT
   .upgrade {
     width: calc(100% - 50px);
   }
+
+  /* **************************
+  PLAYER
+  ************************** */
+  .player-brano {
+    flex-basis: 128;
+  }
+  .player-opzioni {
+    flex-basis: 154px;
+  }
 }
