@@ -81,7 +81,7 @@ MACRO LAYOUT
     background-color: var(--nav);
     overflow:hidden;
     max-height: calc(100vh - 90px);
-    padding: 20px 20px 8px 0px;
+    
     
 }
 .music{
@@ -240,15 +240,86 @@ SIDEBAR
 .install-app{
   margin-top: auto;
 }
+.logo{
+  padding: 20px;
+}
+.logo-piccolo{
+  display: none;
+}
+.navigation .home{
+  border-left: 3px solid greenyellow; 
+  padding-left: 17px; 
+  color: white;
+  font-weight: 900;
+ }
+.navigation .find a,
+.navigation .library a{
+  padding-left: 20px;
+}
+.navigation .find{
+  margin: 10px 0;
+}
+
+.playlist{
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.playlist h4{
+  color: white;
+  text-transform: uppercase;
+}
+.create-pl{
+  display: inline-block;
+  background-color: var(--new-playlist);
+  color: var(--nav);
+  padding: 5px 8px;
+  margin: 10px 0;
+  font-weight: 900;
+  font-size: 25px;
+  border-radius: 1px;
+}
+.playlist-name li {
+  padding: 5px 0;
+}
+.install-app,
+.user{
+  line-height: 2em;
+  padding: 0 20px;
+}
+.download{
+  padding-left: 5px;
+  font-size: 10px;
+}
+.download-ico{
+  font-size: 10px;
+}
+.separate{
+  border: 2px solid #535353; 
+  max-width: 100%;
+  margin: 0 auto;
+}
+.user-name,
+.user-name h4{
+  display: inline-block;
+  color: white;
+  padding-top: 5px;
+  padding-left: 3px;
+  font-size: 12px;
+}
+.user-ico{
+  font-size: 20px;
+  
+}
 
 
 
 
 /* debug */
-.logo,
+/* .logo,
+.logo-piccolo
 .navigation,
-.playlist,
-.install-app,
-.user{
+.playlist, */
+/* .install-app, */
+/* .user{ */
   border: 2px solid red;
 }

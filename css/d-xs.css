@@ -4,7 +4,6 @@ LAYOUT
 *********************/
   .menu {
     flex-basis: 50px;
-    padding: 5px 20px 8px 20px;
   }
   .upgrade {
     width: calc(100% - 50px);
@@ -23,12 +22,62 @@ LAYOUT
     flex-basis: 35%;
   }
 
-  .pulsanti-riproduzione{
+  .pulsanti-riproduzione {
     gap: 5px;
     font-size: 8px;
   }
-  .play-riproduzione{
+  .play-riproduzione {
     font-size: 15px;
     margin: 0 3px;
     margin-bottom: 5px;
+  }
+
+  /* **************************
+SIDEBAR
+************************** */
+  .logo {
+    display: none;
+  }
+  .logo-piccolo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-small {
+    flex-basis: 100%;
+    max-width: 50%;
+    padding: 20px 0;
+  }
+  .home span,
+  .find span,
+  .library .library-description {
+    display: none;
+  }
+
+  .navigation .home {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    border-left: 0;
+    padding: 0;
+  }
+  .playlist {
+    display: none;
+  }
+
+  .download {
+    display: none;
+  }
+  .download-ico {
+    font-size: 10px;
+  }
+  .separate,
+  .user-name {
+    display: none;
+  }
+  .install-app,
+  .user {
+    text-align: center;
+    padding: 0;
+  }
 }
