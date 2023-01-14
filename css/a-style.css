@@ -201,17 +201,22 @@ PLAYER
   background-color:var(--new-playlist);
   padding: 2px;
   width: 50%;
-  position:relative;
+ position:relative; 
 }
-.volume-attuale:hover{
-  background-color: greenyellow;
-}
+
 .ball-volume{
   position: absolute;
   left: calc(100%);
   bottom: -5px;
   font-size: 15px;
-  /* display:none; */
+  color: transparent;
+  
+}
+.volume-max:hover .volume-attuale{
+  background-color: greenyellow;
+}
+.volume-max:hover .ball-volume{
+  color: white;
 }
 .pulsanti-riproduzione{
   display: flex;
@@ -255,19 +260,18 @@ PLAYER
   border-radius: 25px;
   position: relative;
 }
-.slider-actual:hover{
-  background-color: greenyellow;
-}
 .ball{
   position: absolute;
   left: calc(100% - 10px);
   bottom: -7px;
   font-size: 18px;
-  /* display: none; */
+  color: transparent;
 }
-.ball:hover{
-  display: ;
-
+.slider-tot:hover .ball{
+  color: white;
+}
+.slider-tot:hover .slider-actual{
+  background-color: greenyellow;
 }
 
 /* **************************
@@ -323,12 +327,14 @@ SIDEBAR
   font-size: 25px;
   border-radius: 1px;
 }
-.create-pl:hover{
+
+.new-playlist:hover .create-pl{
   background-color: white;
 }
-.new-playlist:hover{
+.new-playlist:hover .create-pl-label{
   color: white;
-  }
+} 
+
 .playlist-name li {
   padding: 5px 0;
 }
