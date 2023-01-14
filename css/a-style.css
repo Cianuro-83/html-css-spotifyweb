@@ -167,6 +167,14 @@ PLAYER
   flex-wrap: wrap;
   gap: 10px;
 }
+.brano-name:hover{
+  color: white;
+  text-decoration: underline;
+}
+.cuore:hover,
+.cartella:hover{
+  color: white;
+}
 .player-opzioni{
   color: white;
 }
@@ -189,8 +197,18 @@ PLAYER
   background-color:var(--new-playlist);
   padding: 2px;
   width: 50%;
+  position:relative;
 }
-
+.volume-attuale:hover{
+  background-color: greenyellow;
+}
+.ball-volume{
+  position: absolute;
+  left: calc(100%);
+  bottom: -5px;
+  font-size: 15px;
+  /* display:none; */
+}
 .pulsanti-riproduzione{
   display: flex;
   justify-content: center;
@@ -199,10 +217,13 @@ PLAYER
   align-items: center;
 }
 .play-riproduzione{
-  font-size: 30px;
+  font-size: 25px;
   margin: 0 10px;
   margin-bottom: 10px;
   
+}
+.play-riproduzione:hover{
+  transform: scale(0.5%);
 }
 .barra-riproduzione{
   display: flex;
@@ -228,6 +249,21 @@ PLAYER
   max-width: 55%;
   background-color:var(--new-playlist);
   border-radius: 25px;
+  position: relative;
+}
+.slider-actual:hover{
+  background-color: greenyellow;
+}
+.ball{
+  position: absolute;
+  left: calc(100% - 10px);
+  bottom: -7px;
+  font-size: 18px;
+  /* display: none; */
+}
+.ball:hover{
+  display: ;
+
 }
 
 /* **************************
