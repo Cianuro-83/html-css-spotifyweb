@@ -39,6 +39,6 @@ ALBUM NAV BAR
 ALBUM RECENTLY PLAYED
 ************************** */
   .recently-played-card {
-    flex-basis: calc(100% / 2 - 45px);
+    width: calc(100% / 2 - 15px);
   }
 }

@@ -24,11 +24,7 @@ PLAYER
   /* **************************
 ALBUN RECENTLY PLAYED
 ************************** */
-  .recently-played-slider {
-    gap: 15px;
-  }
-
   .recently-played-card {
-    flex-basis: calc(100% / 4 - 30px);
+    width: calc(100% / 4 - 15px * 3 / 4);
   }
 }
