@@ -34,4 +34,11 @@ ALBUM NAV BAR
     font-size: 12px;
     gap: 50px 18px;
   }
+
+  /* **************************
+ALBUM RECENTLY PLAYED
+************************** */
+  .recently-played-card {
+    flex-basis: calc(100% / 2 - 45px);
+  }
 }
