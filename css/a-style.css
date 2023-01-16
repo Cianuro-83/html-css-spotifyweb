@@ -430,29 +430,42 @@ ALBUM RECENTLY PLAYED
 /* **************************
 ALBUM CREATO PER JOHN DOE
 ************************** */
-.john-doe-container{
+.john-doe-container,
+.more-popular-container{
   margin-top: 45px;
   color: white;
 }
-.john-doe-title{
+.john-doe-title,
+.more-popular-title{
    font-size: 13px;
   margin-top: 5px;
   margin-bottom: 30px;
 }
 
-.john-doe-subtitle{
+.john-doe-subtitle,
+.more-popular-subtitle{
   font-size: 10px;
   margin-top: 5px;
   color: var(--nav-text);
 }
 
-.john-doe-slider{
+.john-doe-slider,
+.more-popular-slider
+{
   display: flex;
   flex-wrap: wrap;
   gap: 15px
 
 }
 
-.john-doe-card{
-  width: calc(100% / 6);
+.john-doe-card,
+.more-popular-card{
+  width: calc(100% / 6 - 15px * 5 / 6);
+}
+
+/* **************************
+ALBUM ARTISTI + POPOLARI
+************************** */
+.cover-round{
+  border-radius: 100%;
 }

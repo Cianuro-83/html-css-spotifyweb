@@ -30,7 +30,11 @@ ALBUN RECENTLY PLAYED
   /* **************************
 ALBUM CREATO PER JOHN DOE
 ************************** */
-  .john-doe-card {
+  .john-doe-card,
+  .more-popular-card {
     width: calc(100% / 4 - 15px * 3 / 4);
   }
+  /* **************************
+ALBUM ARTISTI + POPOLARI
+************************** */
 }
