@@ -413,5 +413,17 @@ ALBUM RECENTLY PLAYED
 
 .recently-played-card{
   width: calc(100% / 6 - 15px * 5 / 6);
-  border: 1px solid red;
+  
+}
+
+.recently-played-album-title,
+.recently-played-album-artist{
+  text-align: center;
+  font-size: 9px;
+  margin-top: 5px;
+ 
+}
+.recently-played-album-artist{
+  color:var(--nav-text);
+  font-size: 7px;
 }
