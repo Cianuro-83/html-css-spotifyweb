@@ -26,4 +26,12 @@ PLAYER
     margin-bottom: 5px;
     margin: 0 5px;
   }
+
+  /* **************************
+ALBUM NAV BAR
+************************** */
+  .album-navbar {
+    font-size: 12px;
+    gap: 50px 18px;
+  }
 }

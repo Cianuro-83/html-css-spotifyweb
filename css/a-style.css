@@ -382,8 +382,15 @@ ALBUM NAV BAR
   text-transform: uppercase;
   flex-shrink: 0;
   gap: 50px 20px;
-  /* font-size: 14px; */
+  font-size: 13px;
 }
-.album-navbar-evidence{
-  border-bottom: 2px solid greenyellow;
+.album-navbar-evidence-line{
+  background-color:  greenyellow;
+  height: 2px;
+  width: 30px;
+  margin: 5px auto;
+}
+.album-navbar li:hover{
+  color: white;
+  cursor: pointer;
 }

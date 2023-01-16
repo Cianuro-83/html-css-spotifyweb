@@ -40,14 +40,16 @@ SIDEBAR
   }
   .logo-piccolo {
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   .logo-small {
-    flex-basis: 100%;
-    max-width: 50%;
     padding: 20px 0;
   }
+
+  .logo-small img {
+    width: 30px;
+  }
+
   .home span,
   .find span,
   .library .library-description {
@@ -79,5 +81,12 @@ SIDEBAR
   .user {
     text-align: center;
     padding: 0;
+  }
+  /* **************************
+ALBUM NAV BAR
+************************** */
+  .album-navbar {
+    font-size: 14px;
+    gap: 50px 20px;
   }
 }
