@@ -41,4 +41,10 @@ ALBUM RECENTLY PLAYED
   .recently-played-card {
     width: calc(100% / 2 - 15px);
   }
+  /* **************************
+ALBUM CREATO PER JOHN DOE
+************************** */
+  .john-doe-card {
+    width: calc(100% / 2 - 15px);
+  }
 }

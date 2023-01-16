@@ -402,7 +402,7 @@ ALBUM RECENTLY PLAYED
   color: white;
 }
 .recently-played-title{
-  margin-bottom: 25px;
+  margin-bottom: 13px;
 }
 .recently-played-slider{
   display: flex;
@@ -413,7 +413,6 @@ ALBUM RECENTLY PLAYED
 
 .recently-played-card{
   width: calc(100% / 6 - 15px * 5 / 6);
-  
 }
 
 .recently-played-album-title,
@@ -426,4 +425,34 @@ ALBUM RECENTLY PLAYED
 .recently-played-album-artist{
   color:var(--nav-text);
   font-size: 7px;
+}
+
+/* **************************
+ALBUM CREATO PER JOHN DOE
+************************** */
+.john-doe-container{
+  margin-top: 45px;
+  color: white;
+}
+.john-doe-title{
+   font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.john-doe-subtitle{
+  font-size: 10px;
+  margin-top: 5px;
+  color: var(--nav-text);
+}
+
+.john-doe-slider{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px
+
+}
+
+.john-doe-card{
+  width: calc(100% / 6);
 }

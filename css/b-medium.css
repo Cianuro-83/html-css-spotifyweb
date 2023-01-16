@@ -27,4 +27,10 @@ ALBUN RECENTLY PLAYED
   .recently-played-card {
     width: calc(100% / 4 - 15px * 3 / 4);
   }
+  /* **************************
+ALBUM CREATO PER JOHN DOE
+************************** */
+  .john-doe-card {
+    width: calc(100% / 4 - 15px * 3 / 4);
+  }
 }
