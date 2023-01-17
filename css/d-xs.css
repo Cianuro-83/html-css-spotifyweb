@@ -43,7 +43,8 @@ SIDEBAR
     justify-content: center;
   }
   .logo-small {
-    padding: 20px 0;
+    padding: 5px 0;
+    width: 28px;
   }
 
   .logo-small img {

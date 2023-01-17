@@ -284,7 +284,11 @@ SIDEBAR
   margin-top: auto;
 }
 .logo{
-  padding: 20px;
+  padding: 22px;
+
+}
+.logo-big{
+  width: 130px;
 }
 .logo-piccolo{
   display: none;
@@ -370,8 +374,8 @@ SIDEBAR
 }
 .user-ico{
   font-size: 20px;
-  
 }
+
 /* **************************
 ALBUM NAV BAR
 ************************** */
@@ -468,4 +472,31 @@ ALBUM ARTISTI + POPOLARI
 ************************** */
 .cover-round{
   border-radius: 100%;
+}
+
+/* **************************
+PLAY HOVER ALBUM 
+************************** */
+.switch{
+  position:relative;
+}
+.play-mouse {
+position: absolute;
+font-weight: 700;
+font-size: 50px;
+top: 50%;
+left:50%;
+transform:translate(-50%, -50%);
+display: none;
+}
+
+.recently-played-card:hover .switch img,
+.john-doe-card:hover .switch img,
+.more-popular-card:hover .switch img{
+  filter: brightness(0.4);
+}
+.recently-played-card:hover .play-mouse,
+.john-doe-card:hover .play-mouse,
+.more-popular-card:hover .play-mouse{
+  display: block;
 }
