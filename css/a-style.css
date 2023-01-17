@@ -63,7 +63,7 @@ MACRO LAYOUT
 .player-content{
     /* border: 2px solid red; */
     flex-basis: auto;
-    /* min-height: 90px; */
+    min-height: 90px;
     flex-shrink: 0;
     background-color: var(--player);
     overflow: hidden;
@@ -89,7 +89,7 @@ MACRO LAYOUT
     flex-grow: 1;
     background-color: var(--page);
     overflow: auto;
-    max-height: calc(100vh - 90px);
+    max-height:  calc(100vh - 90px);
     position: relative;
     
 }
@@ -103,6 +103,7 @@ MACRO LAYOUT
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 111;
 }
 .upgrade p{
     color: white;
@@ -361,19 +362,28 @@ SIDEBAR
 }
 .separate{
   border: 2px solid #535353; 
-  max-width: 100%;
+  width: 190px;
   margin: 0 auto;
+}
+.user a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.user img{
+  max-width: 15%;
 }
 .user-name,
 .user-name h4{
-  display: inline-block;
+  display: contents;
+  align-items: center;
   color: white;
   padding-top: 5px;
   padding-left: 3px;
   font-size: 12px;
-}
-.user-ico{
-  font-size: 20px;
 }
 
 /* **************************
@@ -499,4 +509,9 @@ display: none;
 .john-doe-card:hover .play-mouse,
 .more-popular-card:hover .play-mouse{
   display: block;
+}
+.recently-played-card:hover,
+.john-doe-card:hover,
+.more-popular-card:hover{
+  cursor: pointer;
 }
