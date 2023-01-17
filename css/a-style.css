@@ -149,7 +149,7 @@ PLAYER
 .player-volume :hover .volume-attuale{
   transform: scale(.9);
 }
- 
+
 .player-riproduzione{
   flex-basis: 50%;
   max-width: 500px;
@@ -392,8 +392,6 @@ SIDEBAR
   gap: 10px;
 }
 
-
-
 .user img{
   max-width: 15%;
   padding-top: 10px;
@@ -512,7 +510,7 @@ PLAY HOVER ALBUM
 .switch{
   position:relative;
 }
-.play-mouse {
+.play-mouse{
 position: absolute;
 font-weight: 700;
 font-size: 50px;
@@ -536,4 +534,45 @@ display: none;
 .john-doe-card:hover,
 .more-popular-card:hover{
   cursor: pointer;
+}
+
+/* **************************
+ANIMATED PLAY BUTTON
+************************** */
+.recently-played-card .in-riproduzione{
+  position: absolute;
+  font-weight: 700;
+  font-size: 25px;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  display: block;
+  color: whitesmoke;
+  background-color: rgba(222, 135, 135, 0.569);
+  border-radius:50%;
+  line-height: 2em;
+  padding: 0 10px;
+  animation: play 1s linear infinite; 
+  }
+  @keyframes play{
+    0%{
+      box-shadow: rgba(255, 193, 7, .7);
+    }
+    25%{
+      box-shadow:0 0 0 0 rgba(255, 193, 7, .7);
+    }
+    50%{
+      box-shadow:0 0 0 50px rgba(255, 193, 7, .0);
+    }
+    100%{
+      box-shadow:0 0 0 rgba(255, 193, 7, 0);
+    }
+  }
+
+  /* img .cover,{
+  filter: brightness(0.4);
+} */
+.in-riproduzione{
+  font-size: 10px;
+  
 }
