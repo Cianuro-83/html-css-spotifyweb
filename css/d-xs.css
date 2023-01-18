@@ -59,7 +59,6 @@ SIDEBAR
 
   .navigation .home {
     text-align: center;
-    color: white;
     font-weight: 900;
     border-left: 0;
     padding: 0;
@@ -96,5 +95,22 @@ ALBUM NAV BAR
   .album-navbar {
     font-size: 14px;
     gap: 50px 20px;
+  }
+
+  .slider-tot {
+    padding: 3px;
+  }
+  .slider-actual {
+    padding: 2px;
+  }
+
+  .ball {
+    font-size: 12px;
+    bottom: -4px;
+  }
+
+  .ball-volume {
+    bottom: -3px;
+    font-size: 10px;
   }
 }
