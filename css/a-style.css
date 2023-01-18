@@ -374,6 +374,7 @@ SIDEBAR
 .download{
   padding-left: 5px;
   font-size: 10px;
+  
 }
 .download:hover{
   color: white;
@@ -381,11 +382,19 @@ SIDEBAR
 .download-ico{
   font-size: 10px;
 }
-.separate{
-  border: 2px solid #535353; 
-  width: 190px;
-  margin: 0 auto;
+.install-app{
+  position: relative;
 }
+.install-app::after{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 190px;
+  background-color: #787878;
+  top: 30px;
+  left: 20px;
+}
+
 .user a{
   display: flex;
   align-items: center;
@@ -394,7 +403,7 @@ SIDEBAR
 
 .user img{
   max-width: 15%;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 .user-name,
 .user-name h4{
@@ -418,12 +427,20 @@ ALBUM NAV BAR
   gap: 50px 20px;
   font-size: 13px;
 }
-.album-navbar-evidence-line{
-  background-color:  greenyellow;
-  height: 2px;
-  width: 30px;
-  margin: 5px auto;
+.album-navbar-evidence{
+  position: relative;
 }
+.album-navbar-evidence::after{
+  position: absolute;
+  content: "";
+  top: 18px;
+  left: calc(100% /2 - 21%);
+  height: 2px;
+  background-color: greenyellow;
+  width: 50%;
+
+}
+
 .album-navbar li:hover{
   color: white;
   cursor: pointer;

@@ -74,7 +74,7 @@ SIDEBAR
   .download-ico {
     font-size: 10px;
   }
-  .separate,
+  .install-app::after,
   .user-name {
     display: none;
   }
@@ -82,6 +82,13 @@ SIDEBAR
   .user {
     text-align: center;
     padding: 0;
+  }
+
+  .user img {
+    max-width: 50%;
+    padding: 10px 0;
+    display: block;
+    margin: 0 auto;
   }
   /* **************************
 ALBUM NAV BAR
