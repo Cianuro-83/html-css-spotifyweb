@@ -51,4 +51,21 @@ ALBUM CREATO PER JOHN DOE
   /* **************************
 ALBUM ARTISTI + POPOLARI
 ************************** */
+
+  .slider-tot {
+    padding: 3px;
+  }
+  .slider-actual {
+    padding: 2px;
+  }
+
+  .ball {
+    font-size: 12px;
+    bottom: -4px;
+  }
+
+  .ball-volume {
+    bottom: -3px;
+    font-size: 10px;
+  }
 }
